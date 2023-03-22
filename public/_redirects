@@ -1,5 +1,1 @@
-#This rule will redirect to Home
-/Pages/Home       /       201
-
-#This rule will redirect to About
-/Pages/About       /about       202
+/*  /index.html   200
