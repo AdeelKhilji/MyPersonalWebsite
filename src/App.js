@@ -1,6 +1,6 @@
 import './App.css'
 import NavbarComponent from "./Components/NavbarComponent"
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import MyWork from './Pages/MyWork'
@@ -12,20 +12,12 @@ function App() {
     <BrowserRouter>
       <NavbarComponent/>
       <div>
-        <Switch>
-          <Route exact path="/">
-            <Home/>
-          </Route>
-          <Route path="/about">
-            <About/>
-          </Route>
-          <Route path="/myWork">
-            <MyWork/>
-          </Route>
-          <Route path="/contact">
-            <Contact/>
-          </Route>
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<Home/>}/>
+          <Route path="/about"  element={<About/>}/>
+          <Route path="/myWork"  element={<MyWork/>}/>
+          <Route path="/contact"  element={<Contact/>}/>
+        </Routes>
       </div>
     </BrowserRouter>
   );
