@@ -11,8 +11,8 @@ const Home = () =>{
         while working with scalable projects
       </p>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-        <AiFillGithub/>
-        <AiFillLinkedin/>
+        <a href="https://github.com/AdeelKhilji" target="_blank" rel="noreferrer"><AiFillGithub/></a>
+        <a href="https://www.linkedin.com/in/adeelkhilji/" target="_blank" rel="noreferrer"><AiFillLinkedin/></a>
       </div>
     </div>
   );
