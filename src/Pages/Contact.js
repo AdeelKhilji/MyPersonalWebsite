@@ -64,11 +64,8 @@ export default function Contact({data})
 
   return (
     <>
-    <div className=" py-40">
-    <div className="h-56 grid grid-cols-3 gap-4 content-center justify-items-center...">
-      <div></div>
-      <div>
-   <Container maxW="450px" mt={12}>
+    <div className=" text-md flex justify-center gap-16 py-36 text-gray-600">
+    <Container maxW="450px" mt={12}>
           <Heading className=" text-2xl py-2 text-teal-600">CONTACT ME</Heading>
           {error && (
             <Text color="red.300" my={4} fontSize="xl">
@@ -126,10 +123,7 @@ export default function Contact({data})
                   className="bg-teal-500 hover:bg-teal-400 text-white font-bold py-2 px-4 border-b-4 border-teal-700 hover:border-teal-500 rounded w-60"
           >SUBMIT</Button>
         </Container>
-   </div>
-      <div></div>
-    </div>
-    </div>
+        </div>
     </>
   )
 }

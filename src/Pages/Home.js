@@ -1,3 +1,4 @@
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const Home = () =>{
   return(
     <div className="text-center p-10">
@@ -9,6 +10,10 @@ const Home = () =>{
         to join a company to gain hands on experience <br/>
         while working with scalable projects
       </p>
+      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+        <AiFillGithub/>
+        <AiFillLinkedin/>
+      </div>
     </div>
   );
 }
