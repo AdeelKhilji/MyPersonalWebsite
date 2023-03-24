@@ -6,7 +6,6 @@ import About from './Pages/About'
 import MyWork from './Pages/MyWork'
 import Contact from './Pages/Contact'
 
-
 function App() {
   return (
     <BrowserRouter>

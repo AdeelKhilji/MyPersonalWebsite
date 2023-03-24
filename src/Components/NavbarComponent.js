@@ -19,9 +19,9 @@ function MobileNav({open, setOpen}) {
                 <NavLink className="text-xl font-medium my-4" to="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     ABOUT ME
                 </NavLink>
-                <NavLink className="text-xl font-medium my-4" to="/myWork" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                {/* <NavLink className="text-xl font-medium my-4" to="/myWork" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     MY WORK
-                </NavLink>
+                </NavLink> */}
                 <NavLink className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     CONTACT ME
                 </NavLink>
@@ -57,9 +57,9 @@ export default function Navbar() {
                     <NavLink to="/about">
                         ABOUT ME
                     </NavLink>
-                    <NavLink to="/myWork">
+                    {/* <NavLink to="/myWork">
                         MY WORK
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/contact">
                         CONTACT ME
                     </NavLink>
